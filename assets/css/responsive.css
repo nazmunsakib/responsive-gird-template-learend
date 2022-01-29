@@ -1,0 +1,123 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {  
+        
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .hero-left-content {
+        text-align: center;
+        grid-column: 1 / -1;
+    }
+    .hero-area {
+        height: 450px;
+    }
+    .university-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .hero-area {
+        height: 450px;
+    }
+    .container {
+        width: 90%;
+    }
+    
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+    .hero-left-content {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .hero-left-content h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+    .hero-left-content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .section-title {margin-top: 30px;margin-bottom: 30px;}
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .section-title p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .service-item-1, .service-item-2, .service-item-3 {
+        grid-column: 1 / -1;
+        margin-bottom: 20px;
+    }
+    
+    .video-popup {
+        grid-column: 1 / -1;
+        height: 250px;
+    }
+
+    .our-deteils {
+        grid-column: 1 / -1;
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .our-deteils h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .service-area-bottom {
+        padding: 30px 0;
+    }
+    .university-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .course-item {
+        text-align: center;
+    }
+    
+    .course-item img {
+        width: 100%;
+    }
+    footer.site-footer {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+    
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+    
+    .widget-title {
+        margin-bottom: 15px;
+    }
+
+
+
+
+        
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
